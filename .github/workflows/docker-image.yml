@@ -22,7 +22,7 @@ jobs:
       with:
         github-push-secret: ${{secrets.TEST_GITHUB_TOKEN}}
         docker-image-name: test-image
-        docker-image-tag: $(date +%s) # optional
+        docker-image-tag: 1.0.0 # optional
         dockerfile-path: ./Dockerfile # optional
         #build-context: ./src/svc # optional
         #build-only: false # optional
