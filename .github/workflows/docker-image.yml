@@ -25,4 +25,4 @@ jobs:
         docker-image-tag: $(date +%s) # optional
         dockerfile-path: ./Dockerfile # optional
         #build-context: ./src/svc # optional
-        build-only: false # optional
+        #build-only: false # optional
