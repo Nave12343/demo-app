@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: test-app
-        image: ghcr.io/nave12343/test-image:1.0.0
+        image: ghcr.io/Nave12343/test-image:1.0.0
         imagePullPolicy: Always
       imagePullSecrets:
       - name: mysecretname
